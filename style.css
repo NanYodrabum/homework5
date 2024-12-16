@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ededed;
+    font-family: "Open Sans", serif;
+}
+
+.hearder-left {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.hearder-left > * {
+     margin-left: 10px; 
+}
+
+
+.hearder-left img {
+    width: 60px;
+    object-fit: contain;
+}
+
+.hearder-left .bold-text {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.hearder-left p {
+    font-size: 20px;
+}
+
+.header-center {
+    display: flex;
+    margin-left: 10px;
+    gap: 30px
+}
+
+.header-right {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    align-items: center;
+    margin-right: 120px;
+}
+
+.header-right i {
+    font-size: 22px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    gap: -100px;
+
+}
+
+.left {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.content .doc {
+    height: 150px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 6px 4px 19px 2px rgba(49,49,49,0.25);
+    border-radius: 15px;
+
+}
+
+.doc .box1 {
+    background-color: rgb(152, 215, 255);
+    padding: 14px 20px;
+    margin: 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-size: 12px;
+
+}
+
+.delete-btn1 {
+    border: 2px solid rgb(79, 198, 159);
+    border-radius: 50%;
+    color: rgb(79, 198, 159);
+    padding: 7px;
+    font-size: 14px;
+    margin-right: 16px;
+}
+
+.google-doc {
+    font-size: 18px;
+}
+
+.box1 i {
+    background-color: white;
+    color: rgb(79, 198, 159);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.dot1 {
+    margin-top: 10px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: rgb(79, 198, 159); 
+}
+
+.price1 {
+    color: grey;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+.content .slide {
+    height: 150px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 6px 4px 19px 2px rgba(49,49,49,0.25);
+    border-radius: 15px;
+}
+
+.delete-btn2 {
+    border: 2px solid rgb(79, 198, 159);
+    border-radius: 50%;
+    color: rgb(79, 198, 159);
+    padding: 7px;
+    font-size: 14px;
+    margin-right: 16px;
+}
+
+.slide .box2 {
+    background-color: rgb(255, 200, 152);
+    padding: 14px 20px;
+    margin: 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.slide .google-slide {
+    font-size: 18px;
+}
+
+.box2 i {
+    background-color: white;
+    color: rgb(255, 200, 152);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.dot2 {
+    margin-top: 10px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: rgb(79, 198, 159); 
+}
+
+.price2 {
+    color: grey;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.content .order-info {
+    height: 300px;
+    padding: 40px;
+    margin-top: 129px;
+    box-shadow: 6px 4px 19px 2px rgba(49,49,49,0.25);
+    border-radius: 15px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-info .subtotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    font-size: 16px;
+}
+
+.order-info .promotionbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promotionbar i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(79, 198, 159);
+}
+
+.promotionbar input {
+    padding: 5px 40px;
+    border: 1px solid rgb(170, 164, 164);
+    border-radius: 5px;
+}
+
+.promotionbar button {
+    margin-left: 2px;
+    padding: 5px 40px;
+    border: 2px solid rgb(79, 198, 159);
+    background-color: white;
+    color: rgb(79, 198, 159);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.pay {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-top: 1px solid grey;
+}
+
+.order-info .total-payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.price3 {
+    color: rgb(79, 198, 159);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.order-info .payment-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.payment-btn button {
+    padding: 10px 150px;
+    background-color: rgb(79, 198, 159);
+    border: none;
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
